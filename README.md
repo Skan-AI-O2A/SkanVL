@@ -29,7 +29,7 @@ conda activate skanvl
 Download the requirements.txt file from the project source (no need to clone the repo).
 
 ```bash
-wget https://path-to-your-requirements-file/requirements.txt
+wget https://github.com/Skan-AI-O2A/SkanVL/blob/main/requirements.txt
 ```
 (Or simply copy it manually if provided to you.)
 
