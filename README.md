@@ -7,6 +7,7 @@
 
 ## Installation Steps
 
+
 ### 1. Create a Conda Environment
 ```bash
 conda create -n skanvl python=3.13
@@ -17,19 +18,10 @@ conda create -n skanvl python=3.13
 conda activate skanvl
 ```
 
-### 3. Navigate to the Project Directory
-```bash
-cd /path/to/SkanVL
-```
 
-### 4. Install Dependencies
+### 4. Downlaod the requiremnets.txt and Install Dependencies
 ```bash
 pip install -r requirements.txt
-```
-
-### 5. Install the Package in Development Mode
-```bash
-pip install -e .
 ```
 
 ## Verification
