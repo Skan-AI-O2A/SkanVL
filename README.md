@@ -1,14 +1,21 @@
-# SkanVL Installation Guide
+# 🧠 SkanVL Installation Guide
 
-## Prerequisites
-- Python 3.10 or higher
-- CUDA-compatible GPU (recommended for optimal performance)
-- Conda or Miniconda
+## 📋 Prerequisites
+Before proceeding, ensure you have the following:
+- **Python 3.10 or higher**  
+- **CUDA-compatible GPU** (recommended for optimal performance)  
+- **Conda or Miniconda** (for environment management)
 
-## Installation Steps
+---
 
+## ⚙️ Installation Steps
 
-### 1. Create a Conda Environment
+> **Note:** You **do not** need to download or clone the full repository.  
+> Only download the `requirements.txt` file and follow the steps below.
+
+### 1️⃣ Create a Conda Environment
+Create a new conda environment with Python 3.13:
+
 ```bash
 conda create -n skanvl python=3.13
 ```
@@ -18,8 +25,15 @@ conda create -n skanvl python=3.13
 conda activate skanvl
 ```
 
+### 3. Download the requiremnets.txt
+Download the requirements.txt file from the project source (no need to clone the repo).
 
-### 4. Downlaod the requiremnets.txt and Install Dependencies
+```bash
+wget https://path-to-your-requirements-file/requirements.txt
+```
+(Or simply copy it manually if provided to you.)
+
+### 4. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
